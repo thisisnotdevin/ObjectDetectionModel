@@ -21,6 +21,7 @@ after, we will update our App.js file and check out the TODO which will update u
   this step basically allows us to download our pre-trained tensorflow.js model.
   
 2. **TODO - Import drawing utility here**
+  skip for now, come back after step 5.
 
 3. **TODO - Load network**
 
@@ -46,4 +47,9 @@ after, we will update our App.js file and check out the TODO which will update u
   create a new utility file in the src folder (js).
   we will create a function that draws a rectangle.
   which takes the obj variable and takes the canvas that is already predefined in the file.
+  
+  within the function in utilities we create styling which will hold the color of our box and our text, we can also set our font
+  and then pass the text and prediction to the box that we gathered from the video as well as their x and y coordinatees, widht and height
+  
+  and finally we can import this to our App.js file 
 
