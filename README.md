@@ -4,8 +4,7 @@ working with important library `Object detection model` coco-ssd located in tens
 ssd model that we will leverage from the link below that have been ported to TensorFlow.js.
 More information visit this [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models#readme)
 
-![Uploading image.png…]()
-
+![image](https://user-images.githubusercontent.com/66978846/180259105-65d8eb07-517a-4d08-b06a-60b8e3027188.png)
 
 # notes for future refference 
 
