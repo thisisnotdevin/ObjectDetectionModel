@@ -7,9 +7,10 @@ export const drawRect = (detections, ctx) =>{
         // set styling
 
         const color = 'white'
+        // white works for a darker enviroment, generally recomend the version below for cool rainbow effect
         // '#' + Math.floor(Math.random()*16777215).toString(16);
         ctx.strokeStyle = color
-        ctx.font = '18px Verdana'
+        ctx.font = '22px Verdana'
         ctx.fillStyle = color
 
         // Draw rectangle and text
