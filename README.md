@@ -5,3 +5,5 @@ ssd model that we will leverage from the link below.
 More information visit this [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models#readme)
 
 working with tenseflow.js and react.js, eliminating "fingerpose" from package.json as it is from a previous code set.
+
+to install everything we open the command, cd to out folder destination, and type `npm install`
