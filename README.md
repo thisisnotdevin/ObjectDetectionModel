@@ -1,10 +1,10 @@
-## notes prior building
+# notes prior building
 
 working with important library `Object detection model` coco-ssd located in tensorflow.js. For our project we will be using the pre-trained
 ssd model that we will leverage from the link below that have been ported to TensorFlow.js.
 More information visit this [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models#readme)
 
-## notes for future refference 
+# notes for future refference 
 
 working with tenseflow.js and react.js, eliminating "fingerpose" from package.json as it is from a previous code set.
 
@@ -14,20 +14,20 @@ to install everything we open the command, cd to out folder destination, and typ
 
 after, we will update our App.js file and check out the TODO which will update us if we want to use real time object detection react app for other usage.
 
-1. **TODO - Import required model here:**
+## 1. **TODO - Import required model here:**
 
   which is coming from our cocossd package.
   after this step, our first dependency is imported.
   this step basically allows us to download our pre-trained tensorflow.js model.
   
-2. **TODO - Import drawing utility here**
+## 2. **TODO - Import drawing utility here**
   skip for now, come back after step 5.
 
-3. **TODO - Load network**
+## 3. **TODO - Load network**
 
   created a new variable called net and then wait for it to load because of the asynchronous function.
   
-4. **MAKE DETECTION STEP (FUN)**
+## 4. **MAKE DETECTION STEP (FUN)**
 
   create a new variable called obj.
   using network defined in step 3 and we are passing it thru our video which is our webcam and we are passing it back to our detect function.
@@ -43,7 +43,7 @@ after, we will update our App.js file and check out the TODO which will update u
     - following by a class that shows what object it is detecting, if you were to sit in front of the camera it would show class: "person"
     - followed by a score which measures the accuracy of the assumption
   
-5. **TODO - Update drawing utility**
+## 5. **TODO - Update drawing utility**
   create a new utility file in the src folder (js).
   we will create a function that draws a rectangle.
   which takes the obj variable and takes the canvas that is already predefined in the file.
