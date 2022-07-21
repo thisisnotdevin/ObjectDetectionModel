@@ -52,4 +52,5 @@ after, we will update our App.js file and check out the TODO which will update u
   and then pass the text and prediction to the box that we gathered from the video as well as their x and y coordinatees, widht and height
   
   and finally we can import this to our App.js file 
+  and call drawRect in TODO 5
 
