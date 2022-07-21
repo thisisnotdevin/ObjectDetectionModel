@@ -42,4 +42,8 @@ after, we will update our App.js file and check out the TODO which will update u
     - following by a class that shows what object it is detecting, if you were to sit in front of the camera it would show class: "person"
     - followed by a score which measures the accuracy of the assumption
   
-5. 
+5. **TODO - Update drawing utility**
+  create a new utility file in the src folder (js).
+  we will create a function that draws a rectangle.
+  which takes the obj variable and takes the canvas that is already predefined in the file.
+
