@@ -4,6 +4,9 @@ working with important library `Object detection model` coco-ssd located in tens
 ssd model that we will leverage from the link below that have been ported to TensorFlow.js.
 More information visit this [tensorflow/tfjs-models](https://github.com/tensorflow/tfjs-models#readme)
 
+![Uploading image.png…]()
+
+
 # notes for future refference 
 
 working with tenseflow.js and react.js, eliminating "fingerpose" from package.json as it is from a previous code set.
