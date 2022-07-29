@@ -58,6 +58,6 @@ after, we will update our App.js file and check out the TODO which will update u
 # future work
   1. make one that can identify a person with their face (facial recognition), show the number accuracy on top of the rectangle which estimates the % of accuracy the       AI holds on its guess.
   2. eye tracking program
-
+  3. study AWS in the future.
   
   
